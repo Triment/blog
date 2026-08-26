@@ -1,11 +1,151 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="41VRl92VBrekP1S-3HtR">
-    <mxGraphModel dx="984" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1887" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jdAvXYSXfO80Zsofeom--1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="280" y="240" as="geometry" />
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-30" parent="1" style="swimlane;startSize=20;horizontal=1;containerType=tree;transparentBounds=1;groupPadding=20;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="租户基础资料" vertex="1">
+          <mxGeometry height="510" width="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-31" edge="1" parent="Y43RS6erVpIrsyCfU1ws-30" source="Y43RS6erVpIrsyCfU1ws-33" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-32" edge="1" parent="Y43RS6erVpIrsyCfU1ws-30" source="Y43RS6erVpIrsyCfU1ws-33" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Tenant" treeRoot="1" id="Y43RS6erVpIrsyCfU1ws-33">
+          <mxCell parent="Y43RS6erVpIrsyCfU1ws-30" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="50" y="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-34" parent="Y43RS6erVpIrsyCfU1ws-30" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="User" vertex="1">
+          <mxGeometry height="60" width="100" x="20" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-35" parent="Y43RS6erVpIrsyCfU1ws-30" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="Role" vertex="1">
+          <mxGeometry height="60" width="100" x="130" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-38" edge="1" parent="Y43RS6erVpIrsyCfU1ws-30" source="Y43RS6erVpIrsyCfU1ws-33" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-39" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-39" parent="Y43RS6erVpIrsyCfU1ws-30" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="Warehouse" vertex="1">
+          <mxGeometry height="60" width="100" x="240" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-40" edge="1" parent="Y43RS6erVpIrsyCfU1ws-30" source="Y43RS6erVpIrsyCfU1ws-33" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-41" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-41" parent="Y43RS6erVpIrsyCfU1ws-30" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="Location" vertex="1">
+          <mxGeometry height="60" width="100" x="350" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-42" edge="1" parent="Y43RS6erVpIrsyCfU1ws-30" source="Y43RS6erVpIrsyCfU1ws-33" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-43" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-43" parent="Y43RS6erVpIrsyCfU1ws-30" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="&lt;meta charset=&quot;utf-8&quot;&gt;Item" vertex="1">
+          <mxGeometry height="60" width="100" x="460" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-44" edge="1" parent="Y43RS6erVpIrsyCfU1ws-30" source="Y43RS6erVpIrsyCfU1ws-33" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-45" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-45" parent="Y43RS6erVpIrsyCfU1ws-30" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="UOM" vertex="1">
+          <mxGeometry height="60" width="100" x="570" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-46" edge="1" parent="Y43RS6erVpIrsyCfU1ws-30" source="Y43RS6erVpIrsyCfU1ws-33" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-47" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-47" parent="Y43RS6erVpIrsyCfU1ws-30" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="&amp;nbsp; &amp;nbsp;Partner&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="100" x="680" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-48" edge="1" parent="Y43RS6erVpIrsyCfU1ws-30" source="Y43RS6erVpIrsyCfU1ws-33" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-49" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-49" parent="Y43RS6erVpIrsyCfU1ws-30" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="Device" vertex="1">
+          <mxGeometry height="60" width="100" x="790" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-50" parent="1" style="swimlane;startSize=20;horizontal=1;containerType=tree;transparentBounds=1;groupPadding=20;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="入库" vertex="1">
+          <mxGeometry height="680" width="730" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-51" edge="1" parent="Y43RS6erVpIrsyCfU1ws-50" source="Y43RS6erVpIrsyCfU1ws-53" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-54" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-52" edge="1" parent="Y43RS6erVpIrsyCfU1ws-50" source="Y43RS6erVpIrsyCfU1ws-53" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-55" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Purchase Order" treeRoot="1" id="Y43RS6erVpIrsyCfU1ws-53">
+          <mxCell parent="Y43RS6erVpIrsyCfU1ws-50" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="50" y="240" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-54" parent="Y43RS6erVpIrsyCfU1ws-50" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="ASN" vertex="1">
+          <mxGeometry height="60" width="100" x="20" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-55" parent="Y43RS6erVpIrsyCfU1ws-50" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="Receipt" vertex="1">
+          <mxGeometry height="60" width="100" x="130" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-56" edge="1" parent="Y43RS6erVpIrsyCfU1ws-50" source="Y43RS6erVpIrsyCfU1ws-53" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-57" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-57" parent="Y43RS6erVpIrsyCfU1ws-50" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="Putaway" vertex="1">
+          <mxGeometry height="60" width="100" x="240" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-58" parent="1" style="swimlane;startSize=20;horizontal=1;containerType=tree;transparentBounds=1;groupPadding=20;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="出库" vertex="1">
+          <mxGeometry height="920" width="980" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-59" edge="1" parent="Y43RS6erVpIrsyCfU1ws-58" source="Y43RS6erVpIrsyCfU1ws-61" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-62" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-60" edge="1" parent="Y43RS6erVpIrsyCfU1ws-58" source="Y43RS6erVpIrsyCfU1ws-61" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-63" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Sales Order" treeRoot="1" id="Y43RS6erVpIrsyCfU1ws-61">
+          <mxCell parent="Y43RS6erVpIrsyCfU1ws-58" style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" vertex="1">
+            <mxGeometry height="60" width="120" x="50" y="470" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-62" parent="Y43RS6erVpIrsyCfU1ws-58" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="Wave" vertex="1">
+          <mxGeometry height="60" width="100" x="20" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-63" parent="Y43RS6erVpIrsyCfU1ws-58" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="Allocation" vertex="1">
+          <mxGeometry height="60" width="100" x="130" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-64" edge="1" parent="Y43RS6erVpIrsyCfU1ws-58" source="Y43RS6erVpIrsyCfU1ws-61" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-65" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-65" parent="Y43RS6erVpIrsyCfU1ws-58" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="Pick List" vertex="1">
+          <mxGeometry height="60" width="100" x="240" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-66" edge="1" parent="Y43RS6erVpIrsyCfU1ws-58" source="Y43RS6erVpIrsyCfU1ws-61" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-67" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-67" parent="Y43RS6erVpIrsyCfU1ws-58" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="Package" vertex="1">
+          <mxGeometry height="60" width="100" x="350" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-68" edge="1" parent="Y43RS6erVpIrsyCfU1ws-58" source="Y43RS6erVpIrsyCfU1ws-61" style="edgeStyle=elbowEdgeStyle;elbow=vertical;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startArrow=none;endArrow=none;rounded=0;curved=0;" target="Y43RS6erVpIrsyCfU1ws-69" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-69" parent="Y43RS6erVpIrsyCfU1ws-58" style="whiteSpace=wrap;html=1;align=center;verticalAlign=middle;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};" value="Shipment" vertex="1">
+          <mxGeometry height="60" width="100" x="460" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Y43RS6erVpIrsyCfU1ws-76" parent="1" style="swimlane;fillColor=#f8cecc;strokeColor=#b85450;" value="WMS" vertex="1">
+          <mxGeometry height="860" width="1150" x="-90" y="-120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
